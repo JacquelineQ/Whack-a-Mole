@@ -1,0 +1,20 @@
+html {
+  background: url('../assets/background.png') no-repeat center center fixed;
+    /* why background and not background img? */
+    box-sizing: border-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index:0;
+    overflow: hidden;
+}
+
+/* Header score and timer */
+
+#scoreboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
