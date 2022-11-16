@@ -18,3 +18,23 @@ html {
     justify-content: space-between;
 }
 
+/* Start and game board container  */
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/* START BOARD  */
+/* possibly play with z-index */
+
+.start-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white center fixed;
+    width: 500px;
+    height: 500px;
+
+}
