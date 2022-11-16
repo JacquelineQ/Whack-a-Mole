@@ -9,11 +9,19 @@
 </head>
 <body>
     <header id="scoreboard">
-        <div id="timer"></div>
-        <h2 id="title">Whack-a-Mole</h2>
-        <div id="score"></div>
+        <div>
+            <h2>Time:<span id="timer">0</span></h2>
+        </div>
+        <div>
+            <h2>Score:<span id="score">0</span></h2>
+        </div>
     </header>
-    <div class="start-screen"></div> 
+    <card class="start-board">
+            <h1 id="title">Whack-a-Mole</h1>
+            <div id="difficulty">Difficulty</div>
+            <button id="start-button">Start</button>
+    </card>
+
     <div class="game-board">
         <div class="hole" id="hole1">
             <div class="mole" id="mole1"></div>
